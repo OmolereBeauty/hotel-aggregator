@@ -1,0 +1,41 @@
+Project Description: Analysis and Optimization of Short-Term Rental Market Data
+
+Project Overview: This project aims to analyze a dataset of short-term rental properties to uncover key insights and provide actionable recommendations for optimizing pricing strategies, improving guest satisfaction, and enhancing property management practices. The analysis leverages various visualization techniques and statistical methods to identify trends, correlations, and patterns within the data.
+
+Dataset Description: The dataset includes information on various attributes of short-term rental properties such as property type, room type, pricing, availability, and guest reviews. Key columns in the dataset include:
+property_type: Type of the rental property (e.g., Entire rental unit, Hotel room).
+room_type: Type of room offered (e.g., Entire home/apt, Private room).
+price: Nightly price of the rental property.
+availability_30, availability_60, availability_90, availability_365: Number of available nights in the next 30, 60, 90, and 365 days, respectively.
+reviews_per_month: Number of reviews received per month.
+review_scores_rating: Guest satisfaction scores.
+
+Key Findings and Insights
+Room Type Analysis: Hotel rooms have the highest average price at $299.69, followed by entire homes/apartments.
+Private rooms in villas account for 6.57% of the average price, indicating niche market potential.
+
+Availability Trends: Hotel rooms have the highest average availability over the next 30 days at 16.43, while private rooms have the lowest at 10.53.
+Availability metrics are positively correlated, suggesting that properties with higher short-term availability also tend to have higher long-term availability.
+
+Property Type Insights:Entire rental units dominate the market, accounting for 44.61% of the property types and having the highest count of reviews per month.
+Sum of availability_30 saw a significant decline of 35.90% in January 2010, highlighting potential seasonality or market shifts.
+
+Review Scores and Pricing: Higher review scores correlate with higher pricing, indicating that guest satisfaction impacts willingness to pay.
+
+ACTIONABLE RECOMMENDATION
+Optimize Pricing Strategy: Implement dynamic pricing to adjust rates based on real-time demand and availability.
+Offer promotional discounts during low-demand periods to boost occupancy.
+
+Enhance Guest Satisfaction: Upgrade property amenities and provide unique experiences to differentiate from competitors.
+Utilize guest data for personalized experiences and address feedback promptly to improve satisfaction.
+
+Property Management: Diversify property portfolio to cater to various market segments and reduce risk.
+Leverage technology solutions for efficient property management and data-driven decision-making.
+
+Visualization Techniques: The project uses the following visualization techniques to uncover insights and present findings:
+
+Treemap: Visualizes the distribution of guest satisfaction scores across different property types and segments.
+Correlation Heatmap: Identifies relationships between variables such as availability metrics and review scores.
+Interactive Maps: Highlights the geographical distribution and concentration of different property and room types.
+
+By thoroughly analyzing the dataset and implementing these recommendations, property managers can enhance their competitive edge, optimize revenue, and improve overall guest satisfaction in the short-term rental market.
